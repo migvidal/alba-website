@@ -48,9 +48,13 @@
         <div class="row">
         {{ range $b := .bulletsection }}
         <div class="md:col-5 lg:col-4">
-          <h3>{{ .title | markdownify }}</h3>
+          <div class="flex justify-center">
+            <div class="w-[150px]">
+              {{ partial "image" (dict "Src" .image) }}
+            </div>
+          </div>
+          <h3 class="text-center pb-8">{{ .title | markdownify }}</h3>
           <ul>
-            {{ partial "image" (dict "Src" .image "Alt" "feature image") }}
             {{ range $bp := .bulletpoints }}
             <li class="relative mb-4 pl-6">
               <i class="fa fa-check absolute left-0 top-1.5"></i>

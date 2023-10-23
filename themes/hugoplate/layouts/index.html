@@ -51,10 +51,9 @@
               {{ .content | markdownify }}
             </p>
             <ul>
-              {{ range $i, $bulletpoint := .bulletpoints }}
-                {{ if eq $i 0 }}
-                  <h3>{{ . | markdownify }}</h3>
-                {{ else }}
+              {{ range $b := .bullets }}
+                  <h3>{{ .title | markdownify }}</h3>
+                {{ range $bp := .bulletpoints }}
                   <li class="relative mb-4 pl-6">
                     <i class="fa fa-check absolute left-0 top-1.5"></i>
                     {{ . | markdownify }}

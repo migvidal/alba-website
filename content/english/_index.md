@@ -14,10 +14,14 @@ services:
   - title: "Servicios que ofrezco"
     image: "/images/service-1.png"
     content: "Como traductora, trabajo exclusivamente del inglés al español europeo (variante EN>ES). Esto me ha permitido centrarme y especializarme en el campo audiovisual, aunque también realizo traducción publicitaria y generalista."
-    bulletpoints:
-    - "Subtitulado:"
-    - "Traducción de subtítulos (inglés a español)"
-    - "Creación de subtítulos en español desde cero: transcripción y pautado."
+    bullets:
+      - title: "Subtitulado:"
+        bulletpoints:
+        - "Traducción de subtítulos (inglés a español)"
+        - "Creación de subtítulos en español desde cero: transcripción y pautado."
+      - title: "Doblaje:"
+        bulletpoints:
+        - "Traducción EN>ES de guiones de doblaje para su posterior ajuste"
     button:
       enable: false
       label: "Get Started Now"
@@ -26,10 +30,14 @@ services:
   - title: "Discover the Key Features Of Hugo"
     image: "/images/service-2.png"
     content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+    bullets:
+    - title: "Subtitulado:"
+      bulletpoints:
+      - "Traducción de subtítulos (inglés a español)"
+      - "Creación de subtítulos en español desde cero: transcripción y pautado."
+    - title: "Doblaje:"
+      bulletpoints:
+      - "Traducción EN>ES de guiones de doblaje para su posterior ajuste"
     button:
       enable: true
       label: "Get Started Now"

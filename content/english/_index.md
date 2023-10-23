@@ -12,47 +12,19 @@ banner:
 # Services
 services:
   - title: "Servicios que ofrezco"
-    image: "/images/service-1.png"
     content: "Como traductora, trabajo exclusivamente del inglés al español europeo (variante EN>ES). Esto me ha permitido centrarme y especializarme en el campo audiovisual, aunque también realizo traducción publicitaria y generalista."
-    bullets:
+    bulletsection:
       - title: "Subtitulado:"
+        image: "/images/banner.png"
         bulletpoints:
         - "Traducción de subtítulos (inglés a español)"
         - "Creación de subtítulos en español desde cero: transcripción y pautado."
       - title: "Doblaje:"
+        image: "/images/banner.png"
         bulletpoints:
         - "Traducción EN>ES de guiones de doblaje para su posterior ajuste"
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
-
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bullets:
-    - title: "Subtitulado:"
-      bulletpoints:
-      - "Traducción de subtítulos (inglés a español)"
-      - "Creación de subtítulos en español desde cero: transcripción y pautado."
-    - title: "Doblaje:"
-      bulletpoints:
-      - "Traducción EN>ES de guiones de doblaje para su posterior ajuste"
-    button:
-      enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
-
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
-    bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
-    button:
-      enable: false
-      label: ""
-      link: ""
 ---

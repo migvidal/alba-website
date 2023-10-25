@@ -29,7 +29,7 @@ custom_script = ""
 # copyright
 copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
 # additional attributions
-attributions = "Icons by Björn Andersson from the [Noun Project](https://thenounproject.com/browse/icons/term/translate/) (CC BY 3.0)"
+attributions = "Images by Björn Andersson from the [Noun Project](https://thenounproject.com/browse/icons/term/translate/) (CC BY 3.0). Banner image by [catalyststuff on Freepik](https://www.freepik.com/free-vector/cute-woman-working-laptop-with-fire-cartoon-vector-icon-illustration-people-technology-isolated_32903761.htm#fromView=search&term=woman+computer&page=2&position=13&track=ais&regularType=vector)"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader

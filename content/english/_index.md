@@ -3,7 +3,7 @@
 banner:
   title: "Soy Alba Vidal"
   content: "Traductora audiovisual."
-  image: "/images/banner.png"
+  image: "/images/working_with_fire.png"
   button:
     enable: true
     label: "Get Started For Free"

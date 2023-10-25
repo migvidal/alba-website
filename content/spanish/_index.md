@@ -1,17 +1,17 @@
 ---
 # Banner
 banner:
-  title: "I'm Alba Vidal"
-  content: "Audiovisual translator."
+  title: "Soy Alba Vidal"
+  content: "Traductora audiovisual."
   image: "/images/working_with_fire.png"
   button:
     enable: true
-    label: "Contact me"
+    label: "Contacta conmigo"
     link: "https://github.com/zeon-studio/hugoplate"
 
 # Services
 services:
-  - title: "Services I offer"
+  - title: "Servicios que ofrezco"
     content: "Como traductora, trabajo exclusivamente del inglés al español europeo (variante EN>ES). Esto me ha permitido centrarme y especializarme en el campo audiovisual, aunque también realizo traducción publicitaria y generalista."
     bulletsection:
       - title: "Subtitulado:"

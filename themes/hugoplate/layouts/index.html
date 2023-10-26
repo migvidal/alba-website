@@ -50,7 +50,7 @@
         <div class="md:col-5 lg:col-4">
           <div class="flex justify-center">
             <div class="w-[150px]">
-              {{ $svg := "assets/images/drawing_icons/ic_collab_work.svg" }}
+              {{ $svg := printf "assets%s" .image }}
               {{ readFile $svg | htmlUnescape | safeHTML }}
             </div>
           </div>

@@ -1,1 +1,24 @@
-// Add your own custom styles here
+// Custom fonts
+@font-face {
+  font-family: "nunito";
+	src: url("/fonts/Nunito-VariableFont_wght.ttf") format("truetype-variations");
+	font-weight: normal;
+	font-style: normal;
+}
+h1 {
+  transition-property: font-variation-settings;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  font-family: "nunito", sans-serif;
+  font-variation-settings: "wght" 500;
+  &:hover {
+    font-variation-settings: "wght" 999;
+  }
+}
+
+h1, h3 {
+  font-family: "nunito", sans-serif;
+  font-variation-settings: "wght" 500;
+}
+
+// Other custom styles

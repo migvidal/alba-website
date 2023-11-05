@@ -17,7 +17,7 @@
         </p>
         {{ with .button }}
         {{ if .enable }}
-        <a class="btn btn-primary rounded-full" href="{{ .link | relURL }}">
+        <a class="btn btn-primary rounded-full" href="#contact">
           {{ .label }}
           <i class="fa fa-arrow-right pl-2"></i>
         </a>
@@ -90,7 +90,7 @@
 <!-- /Services -->
 
 <!-- Contact -->
-<section id="contact">
+<section id="contact" class="section-sm">
   <div class="container">
     {{ with .Params.contact }}
     <h2 class="mb-4">

@@ -7,7 +7,6 @@ banner:
   button:
     enable: true
     label: "Contacta conmigo"
-    link: "https://github.com/zeon-studio/hugoplate"
 
 # Services
 services:

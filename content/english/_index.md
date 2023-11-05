@@ -8,7 +8,6 @@ banner:
   button:
     enable: true
     label: "Contact me"
-    link: "#contact"
 
 # Services
 services:

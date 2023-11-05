@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row">
       <div class="md:col-2"></div>
-      <div class="md:col-5 mb-8">
+      <div class="md:col-4 mb-8">
         <h1 class="mb-4">
           {{ .title | markdownify }}
         </h1>
@@ -14,17 +14,18 @@
         </p>
         {{ with .button }}
         {{ if .enable }}
-        <a class="btn btn-primary" href="{{ .link | absURL }}">
+        <a class="btn btn-primary rounded-full" href="{{ .link | absURL }}">
           {{ .label }}
           <i class="fa fa-arrow-right pl-2"></i>
         </a>
         {{ end }}
         {{ end }}
       </div>
-      <div class="col-12 md:col-5">
+      <div class="col-12 md:col-4">
         {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class"
         "mx-auto !max-w-[320px]" ) }}
       </div>
+      <div class="md:col-2"></div>
     </div>
   </div>
 </section>
@@ -46,7 +47,7 @@
         </p>
 
         <!-- Bulletsection -->
-        <div class="row">
+        <div class="row justify-center">
         {{ range $b := .bulletsection }}
         <div class="md:col-5 lg:col-4">
           <div class="flex justify-center">

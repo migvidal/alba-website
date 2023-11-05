@@ -6,15 +6,18 @@
     <div class="row">
       <div class="md:col-2"></div>
       <div class="md:col-4 mb-8">
-        <h1 class="mb-4">
+        <h1>
           {{ .title | markdownify }}
         </h1>
+        <p class="mb-4 customFontBold text-xl">
+          {{ .subtitle | markdownify }}
+        </p>
         <p class="mb-8">
           {{ .content | markdownify }}
         </p>
         {{ with .button }}
         {{ if .enable }}
-        <a class="btn btn-primary rounded-full" href="{{ .link | absURL }}">
+        <a class="btn btn-primary rounded-full" href="{{ .link | relURL }}">
           {{ .label }}
           <i class="fa fa-arrow-right pl-2"></i>
         </a>
@@ -34,7 +37,7 @@
 
 <!-- Services -->
 {{ range $i, $e:= .Params.services }}
-<section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
+<section id="services" class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
   <div class="container">
     <div class="">
       <div
@@ -48,25 +51,25 @@
 
         <!-- Bulletsection -->
         <div class="row justify-center">
-        {{ range $b := .bulletsection }}
-        <div class="md:col-5 lg:col-4">
-          <div class="flex justify-center">
-            <div class="w-[100px] h-[90px] m-6">
-              {{ $svg := printf "assets%s" .image }}
-              {{ readFile $svg | htmlUnescape | safeHTML }}
+          {{ range $b := .bulletsection }}
+          <div class="md:col-5 lg:col-4">
+            <div class="flex justify-center">
+              <div class="w-[100px] h-[90px] m-6">
+                {{ $svg := printf "assets%s" .image }}
+                {{ readFile $svg | htmlUnescape | safeHTML }}
+              </div>
             </div>
+            <h3 class="text-center pb-8">{{ .title | markdownify }}</h3>
+            <ul>
+              {{ range $bp := .bulletpoints }}
+              <li class="relative mb-4 pl-6">
+                <i class="fa fa-check absolute left-0 top-1.5"></i>
+                {{ . | markdownify }}
+              </li>
+              {{ end }}
+            </ul>
           </div>
-          <h3 class="text-center pb-8">{{ .title | markdownify }}</h3>
-          <ul>
-            {{ range $bp := .bulletpoints }}
-            <li class="relative mb-4 pl-6">
-              <i class="fa fa-check absolute left-0 top-1.5"></i>
-              {{ . | markdownify }}
-            </li>
-            {{ end }}
-          </ul>
-        </div>
-        {{ end }}
+          {{ end }}
         </div>
         <!-- /Bulletsection -->
 
@@ -87,19 +90,25 @@
 <!-- /Services -->
 
 <!-- Contact -->
-<section>
+<section id="contact">
   <div class="container">
-    <h2>{Contact}</h2>
+    <h2 class="mb-4">
+      {Contact}
+    </h2>
     <p class="text-lg">{You can find me in these places}</p>
-    <ul>
+    <ul class="flex flex-wrap">
       {{ range site.Data.social.main }}
-      <li>
-        <a class="m-2 bg-primary dark:bg-darkmode-primary dark:text-dark flex h-9 w-9 items-center justify-center rounded text-center leading-9 text-white"
+      <li class="px-8">
+        <a class="flex items-center text-xl hover:text-cyan-500"
           target="_blank"
           aria-label="{{ .name }}"
           rel="nofollow noopener"
           href="{{ .link | safeURL }}">
-          <i class="{{ .icon }}"></i>
+          <div
+            class="m-2 bg-primary dark:bg-darkmode-primary dark:text-dark flex h-12 w-12 items-center justify-center rounded-full text-center leading-9 text-white">
+            <i class="{{ .icon }}"></i>
+          </div>
+        <p class="pl-2 underline underline-offset-8">{{ .name | strings.FirstUpper }} - {{ .username }}</p>
         </a>
       </li>
       {{ end }}

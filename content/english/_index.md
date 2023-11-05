@@ -2,17 +2,18 @@
 # Banner
 banner:
   title: "I'm Alba Vidal"
-  content: "Audiovisual translator."
+  subtitle: "Audiovisual translator." 
+  content: "I have worked for Lorem Inc, Ipsum Group and Contoso SA."
   image: "/images/working_with_fire.png"
   button:
     enable: true
     label: "Contact me"
-    link: "https://github.com/zeon-studio/hugoplate"
+    link: "#contact"
 
 # Services
 services:
   - title: "Services I offer"
-    content: "Como traductora, trabajo exclusivamente del inglés al español europeo (variante EN>ES). Esto me ha permitido centrarme y especializarme en el campo audiovisual, aunque también realizo traducción publicitaria y generalista."
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat lorem a sodales consequat. Nulla mattis libero id ligula aliquam commodo. Nullam non urna nec mi pharetra hendrerit."
     bulletsection:
       - title: "Subtitulado:"
         image: "/images/drawing_icons/ic_process.svg"

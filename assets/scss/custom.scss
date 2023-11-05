@@ -5,20 +5,35 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
 h1 {
+  font-family: "nunito", sans-serif;
+  font-variation-settings: "wght" 500;
+
+  animation-delay: 1s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-name: delayChangeWeight;
+  animation-timing-function: ease;
+
   transition-property: font-variation-settings;
   transition-duration: 0.5s;
   transition-timing-function: ease;
-  font-family: "nunito", sans-serif;
-  font-variation-settings: "wght" 500;
   &:hover {
+    font-variation-settings: "wght" 100;
+  }
+}
+
+@keyframes delayChangeWeight {
+  to {
     font-variation-settings: "wght" 999;
   }
 }
 
 h2, h3 {
   font-family: "nunito", sans-serif;
-  font-variation-settings: "wght" 500;
+  font-variation-settings: "wght" 700;
 }
 
 // Other custom styles

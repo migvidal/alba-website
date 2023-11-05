@@ -65,8 +65,25 @@
               <li class="relative mb-4 pl-6">
                 <i class="fa fa-check absolute left-0 top-1.5"></i>
                 {{ . | markdownify }}
-              </li>
               {{ end }}
+              <!-- Optional dialog -->
+              {{ if (isset . "dialog_content") }}
+                <button
+                  class="underline underline-offset-8 hover:text-cyan-500"
+                  onclick="dialog.showModal()">
+                  {{ .dialog_button }}
+                </button>
+                <dialog class="p-8 w-96 rounded-xl" id="dialog">
+                  <form method="dialog">
+                    <p class="font-bold pb-2">{{ .dialog_title }}</p>
+                    <p>{{ .dialog_content }}</p>
+                    <button class="my-4 btn btn-primary rounded-full">OK</button>
+                  </form>
+                </dialog>
+              {{ end }}
+              <!-- /Optional dialog -->
+
+              </li>
             </ul>
           </div>
           {{ end }}

@@ -51,7 +51,7 @@
         {{ range $b := .bulletsection }}
         <div class="md:col-5 lg:col-4">
           <div class="flex justify-center">
-            <div class="w-[150px]">
+            <div class="w-[100px] h-[90px] m-6">
               {{ $svg := printf "assets%s" .image }}
               {{ readFile $svg | htmlUnescape | safeHTML }}
             </div>

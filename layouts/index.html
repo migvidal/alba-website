@@ -92,10 +92,14 @@
 <!-- Contact -->
 <section id="contact">
   <div class="container">
+    {{ with .Params.contact }}
     <h2 class="mb-4">
-      {Contact}
-    </h2>
-    <p class="text-lg">{You can find me in these places}</p>
+        {{ .title }}
+      </h2>
+      <p class="text-lg">
+        {{ .subtitle }}
+      </p>
+    {{ end }}
     <ul class="flex flex-wrap">
       {{ range site.Data.social.main }}
       <li class="px-8">

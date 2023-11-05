@@ -45,4 +45,9 @@ services:
       enable: false
       label: "Get Started Now"
       link: "#"
+
+# Contact
+contact:
+  title: "Contact"
+  subtitle: "You can find me in these places:"
 ---

@@ -44,4 +44,9 @@ services:
       enable: false
       label: "Get Started Now"
       link: "#"
+
+# Contact
+contact:
+  title: "Contacto"
+  subtitle: "Puedes encontrarme en estos lugares:"
 ---

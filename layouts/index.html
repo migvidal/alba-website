@@ -36,7 +36,7 @@
 <!-- /Banner -->
 
 <!-- Services -->
-{{ range $i, $e:= .Params.services }}
+{{ range $i, $e := .Params.services }}
 <section id="services" class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
   <div class="container">
     <div class="">

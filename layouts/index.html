@@ -76,7 +76,7 @@
                 <dialog class="p-8 w-96 rounded-xl" id="dialog">
                   <form method="dialog">
                     <p class="font-bold pb-2">{{ .dialog_title }}</p>
-                    <p>{{ .dialog_content }}</p>
+                    <p>{{ .dialog_content | markdownify }}</p>
                     <button class="my-4 btn btn-primary rounded-full">OK</button>
                   </form>
                 </dialog>

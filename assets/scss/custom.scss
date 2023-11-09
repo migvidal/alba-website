@@ -42,3 +42,6 @@ h2, h3 {
 }
 
 // Other custom styles
+dialog a {
+    @apply underline underline-offset-8 hover:text-cyan-500 visited:text-purple-600
+}

@@ -31,12 +31,12 @@ services:
         - "Audiodescripción: creación de guiones en español."
         dialog_button: "¿Qué es la audiodescripción?"
         dialog_title: "Pero Alba, ¿qué es la audiodescripción?"
-        dialog_content: Pues una narración de los elementos visuales de un vídeo, para mejorar el acceso al cine y la TV de las personas con discapacidad. Vamos, una cosa muy bonita y necesaria. Más info aquí.
+        dialog_content: "Pues una narración de los elementos visuales de un vídeo, para mejorar el acceso al cine y la TV de las personas con discapacidad (vamos, una cosa muy bonita y necesaria). Más info [aquí](https://www.once.es/servicios-sociales/cultura-y-ocio/audiodescripcion-para-quienes-gustan-del-cine-y-del-teatro)."
 
       - title: "Transcreación, alias traducción de márketing"
         image: "/images/drawing_icons/ic_document.svg"
         bulletpoints:
-        - "Para una buena traducción publicitaria es esencial adaptar el tono y las referencias culturales al nuevo mercado. Solo así el público recibirá la marca tal y como se pretende. Te ayudo a adaptar tu contenido de márkeDng, ya sean anuncios, redes sociales, copy..."
+        - "Para una buena traducción publicitaria es esencial adaptar el tono y las referencias culturales al nuevo mercado. Solo así el público recibirá la marca tal y como se pretende. Te ayudo a adaptar tu contenido de márketing, ya sean anuncios, redes sociales, copy..."
 
       - title: "Corrección de textos (español)"
         image: "/images/drawing_icons/ic_collab_work.svg"

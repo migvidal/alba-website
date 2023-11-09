@@ -43,6 +43,12 @@ services:
         bulletpoints:
         - "Además de traducción, ofrezco servicios de revisión ortotipográfica y de estilo, tanto de textos originales en español como de traducciones. ¡No dejes que una puntuación descuidada te estropee un buen texto ni que se te cuele algún anglicismo raro en tu traducción! Cuatro ojos ven más que dos, etcétera. Y sí, soy la típica pesada que va por la calle señalando carteles y diciendo: 'ahí sobra una coma'."
 
+      - title: "LQA: Control de calidad lingüístico"
+        image: "/images/drawing_icons/ic_like.svg"
+        bulletpoints:
+        - "Ser el último ser humano que comprueba un producto localizado antes de que se publique es... muy necesario. ¡La cantidad de errores de última hora que se evitan así!"
+        - "El LQA es más técnico y específico que una corrección de texto, e implica tareas como consultar guías de cliente y de estilo, usar software específico e implementar cambios de última hora. Muchas veces el proceso trasciende los idiomas y se hace control de calidad de lenguas que ni hablamos, por lo que es esencial tener conocimientos de lingüística y saber dónde y cómo mirar."
+
     button:
       enable: false
       label: "Get Started Now"

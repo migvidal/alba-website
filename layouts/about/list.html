@@ -8,7 +8,10 @@
           <div class="content">{{ .Content }}</div>
           {{ range .Params.links }}
           <div class="pb-2">
-            <a class="link" href="{{ .url }}">{{ .name }}</a>
+            <a class="link" href="{{ .url }}">
+              <i class="fa {{ .icon }}"></i>
+              {{ .name }}
+            </a>
           </div>
           {{ end }}
 

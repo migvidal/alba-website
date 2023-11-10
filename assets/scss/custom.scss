@@ -42,6 +42,9 @@ h2, h3 {
 }
 
 // Other custom styles
+.link {
+  @apply underline underline-offset-8 hover:text-cyan-500 visited:text-purple-600
+}
 dialog a {
-    @apply underline underline-offset-8 hover:text-cyan-500 visited:text-purple-600
+    @apply link
 }

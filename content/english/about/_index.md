@@ -1,5 +1,5 @@
 ---
-title: "¡Hola! Soy Alba Vidal"
+title: "Sobre mí"
 meta_title: "About"
 description: "this is meta description"
 image: "/images/profile_picture.jpeg"

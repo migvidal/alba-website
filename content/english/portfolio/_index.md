@@ -2,10 +2,10 @@
 title: Portfolio
 
 intro: "
-  Aquí podéis ver las películas y series que he traducido.
+  Here you can find every film and program I have translated.
 
 
-  Además, he realizado varias traducciones web y trabajos de corrección y control de calidad lingüísDco para empresas.
+  I have also translated several websites and conducted proofreading and linguistic QC for various clients.
 "
 
 companies:

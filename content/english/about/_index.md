@@ -1,34 +1,35 @@
 ---
-title: "Sobre mí"
+title: "About me"
 meta_title: "About"
 description: "this is meta description"
 image: "/images/profile_picture.jpeg"
 draft: false
 
 resumelink:
-  name: Mi CV
+  name: My CV
   url: "/rawfiles/CV-english.pdf"
   icon: fa-file
 
 links:
-- name: Películas y series traducidas por mí
+- name: Things I have translated
   url: https://basededatos.atrae.org/user/alba-vidal/
   icon: fa-film
 - name: Entrevista con La Nueva Crónica
   url: https://www.lanuevacronica.com/nevera/los-subtitulos-para-netflix-se-traducen-desde-leon_117807_102.html
   icon: fa-newspaper
-- name: "Premio ATRAE 2018: palmarés."
+- name: "ATRAE Awards 2018"
   url: https://premios.atrae.org/ganadores-ix-edicion/
   icon: fa-link
 ---
 
-__¡Hola! Soy Alba Vidal, traductora audiovisual. Sí, rima. ¿Casualidad? Quién sabe.
-Llevo más de 7 años dedicándome a la traducción y a la corrección de textos. De esos 7 años, 5 han estado dedicados casi exclusivamente a lo que más me gusta, chifla y apasiona: la traducción audiovisual.__
+__Hi there! My name is Alba Vidal, audiovisual translator. “Audiovisual” and “Vidal” rhyme in Spanish, but sadly not in English. I will eventually come up with something nice to make up for it, I promise!__
 
-Recuerdo a mi yo preadolescente traduciendo letras de Hilary Duff por diversión (y con el diccionario, sin internet). Y también __a mi yo de 18 teniendo que elegir entre estudiar algo relacionado con el cine o con el inglés__, y echarme a llorar por no saber. ¡Resulta que __podía combinar las dos cosas__! Y eso es lo que he hecho.
+I have over 7 years of experience as a professional translator and proofreader. Of those 7, 5 years have been dedicated almost exclusively to what I enjoy more than anything in the world: audiovisual translation.
 
-Después de graduarme en Estudios Ingleses por la Universidad de Oviedo, me mudé a Londres, donde viví varios años y donde, entre otras cosas, cursé un __Máster de Traducción Audiovisual en la University of Roehampton__.
+I remember being a pre-teen self translating Hilary Duff lyrics for fun. And I’m talking pre-internet times, so I used a physical dictionary! With pages! I also remember when I was 18 and had to choose what to study aUer high school, and how I would end up crying because I couldn’t decide between English, Media Studies or Translation. Well, it turns out you can combine all three, and that is what I’ve done.
 
-Ahora he __traducido más de 40 películas y series__ y, en 2018, __gané el Premio ATRAE a Mejor Serie Subtitulada.__
+After completing my BA in English Studies in Universidad de Oviedo (Spain), I moved to London, where I lived for several years. Among the many things I did there, I studied an __MA in Audiovisual Translation at the University of Roehampton__.
 
-__Además de traductora freelance, he trabajado en plantilla como especialista de QA lingüístico__ para empresas como __EA y Deluxe__. También he colaborado en festivales de cine como técnico de subtitulado.
+Fast forward to 2023, and I have translated over 40 films and TV shows into Spanish. In 2018, I won an ATRAE award for Best Subtitled TV Show for my translation of RuPaul’s Drag Race.
+
+Besides freelance translation, I have also worked as an in-house Linguistic QA specialist for companies such as Electronic Arts and Deluxe Media. I also collaborate with film festivals as a subtitle technician.

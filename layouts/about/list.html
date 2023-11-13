@@ -7,11 +7,21 @@
           <div class="flex flex-wrap items-center">
           {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "mx-auto mb-6 rounded-xl" "Size" "200x200") }}
             <div class="ml-4">
-            {{ range .Params.links }}
+            <!-- CV link -->
+              {{ with .Params.resumelink }}
+              <div class="text-left h-10 pb-2">
+                <a class="link" href="{{ .url | absURL }}"><i class="w-6 fa {{ .icon }}"></i>{{ .name }}</a>
+              </div>
+              {{ end }}
+            <!-- /CV link -->
+
+            <!-- Other links -->
+              {{ range .Params.links }}
               <div class="text-left h-10 pb-2">
                 <a class="link" href="{{ .url }}"><i class="w-6 fa {{ .icon }}"></i>{{ .name }}</a>
               </div>
-            {{ end }}
+              {{ end }}
+            <!-- /Other links -->
             </div>
           </div>
           <div class="content">{{ .Content }}</div>

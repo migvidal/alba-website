@@ -4,10 +4,13 @@ meta_title: "About"
 description: "this is meta description"
 image: "/images/profile_picture.jpeg"
 draft: false
-links:
-- name: Mi CV
-  url: "/"
+
+resumelink:
+  name: Mi CV
+  url: "/rawfiles/CV-english.pdf"
   icon: fa-file
+
+links:
 - name: Películas y series traducidas por mí
   url: https://basededatos.atrae.org/user/alba-vidal/
   icon: fa-film

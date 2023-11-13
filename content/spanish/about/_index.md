@@ -4,6 +4,11 @@ meta_title: "About"
 description: "this is meta description"
 image: "/images/profile_picture.jpeg"
 draft: false
+
+resumelink:
+  name: Mi CV
+  url: "/rawfiles/CV-spanish.pdf"
+  icon: fa-file
 ---
 
 __¡Hola! Soy Alba Vidal, traductora audiovisual. Sí, rima. ¿Casualidad? Quién sabe.

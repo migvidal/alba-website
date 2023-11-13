@@ -10,10 +10,10 @@ intro: "
 
 companies:
 - name: Electronic Arts
-  image: "/images/avatar.png"
-  description: this is meta description
+  image: "/images/companies_logos/EA_logo.svg"
+  description:
 
-- name: Contoso
-  image: "/images/avatar.png"
-  description: this is meta description
+- name: Deluxe
+  image: "/images/companies_logos/Deluxe_logo.png"
+  description:
 ---

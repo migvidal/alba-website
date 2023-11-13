@@ -11,7 +11,7 @@
   font-variation-settings: "wght" 800;
 }
 
-h1 {
+.inflatableFont {
   font-family: "nunito", sans-serif;
   font-variation-settings: "wght" 500;
 
@@ -25,9 +25,6 @@ h1 {
   transition-property: font-variation-settings;
   transition-duration: 0.5s;
   transition-timing-function: ease;
-  &:hover {
-    font-variation-settings: "wght" 100;
-  }
 }
 
 @keyframes delayChangeWeight {

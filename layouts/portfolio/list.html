@@ -1,9 +1,9 @@
 {{ define "main" }}
   {{ partial "page-header" . }}
-  <section class="section">
-    <div class="container">
+  <section class="section-sm">
+    <div class="container text-center">
       <p>{{ .Params.intro | markdownify }}</p>
-      <div class="row">
+      <div class="row mt-10">
         {{ range $i := .Params.companies }}
           <div class="md:col-6 lg:col-4 mb-14">
             {{ partial "components/company-card" . }}

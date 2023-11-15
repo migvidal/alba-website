@@ -3,9 +3,12 @@
   <section class="section-sm">
     <div class="container text-center">
       <p>{{ .Params.intro | markdownify }}</p>
-      <div class="row mt-10">
-        {{ range $i := .Params.companies }}
-          <div class="md:col-6 lg:col-4 mb-14">
+      <div class="grid grid-rows-2 grid-cols-2 md:grid-cols-4 md:grid-flow-col auto-cols-min gap-10 mt-10">
+        {{ range $i, $e := .Params.companies }}
+          <div class="
+          {{ if (eq $i 0) }}
+            row-span-2
+          {{ end }}">
             {{ partial "components/company-card" . }}
           </div>
         {{ end }}

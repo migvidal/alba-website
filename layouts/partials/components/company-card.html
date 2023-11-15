@@ -1,5 +1,5 @@
 <div
-  class="bg-theme-light dark:bg-darkmode-theme-light rounded p-8 text-center">
+  class="flex flex-col justify-between bg-theme-light dark:bg-darkmode-theme-light rounded p-4 text-center">
   {{ $image:= .image }}
   {{ if $image }}
     {{ partial "image" (dict "Src" $image "Alt" .name "Class" "mx-auto mb-6 rounded" "size" "120x120") }}
@@ -7,7 +7,4 @@
   <h4 class="mb-3">
     {{ .name }}
   </h4>
-  <p class="mb-4">
-    {{ .description }}
-  </p>
 </div>

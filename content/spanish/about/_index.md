@@ -25,10 +25,13 @@ links:
 __¡Hola! Soy Alba Vidal, traductora audiovisual. Sí, rima. ¿Casualidad? Quién sabe.
 Llevo más de 7 años dedicándome a la traducción y a la corrección de textos. De esos 7 años, 5 han estado dedicados casi exclusivamente a lo que más me gusta, chifla y apasiona: la traducción audiovisual.__
 
-Recuerdo a mi yo preadolescente traduciendo letras de Hilary Duff por diversión (y con el diccionario, sin internet). Y también a mi yo de 18 teniendo que elegir entre estudiar algo relacionado con el cine o con el inglés, y echarme a llorar por no saber. ¡Resulta que podía combinar las dos cosas! Y eso es lo que he hecho.
+__¡Hola! Soy Alba Vidal, traductora audiovisual. Sí, rima. ¿Casualidad? Quién sabe.
+Llevo más de 7 años dedicándome a la traducción y a la corrección de textos. De esos 7 años, 5 han estado dedicados casi exclusivamente a lo que más me gusta, chifla y apasiona: la traducción audiovisual.__
 
-Después de graduarme en Estudios Ingleses por la Universidad de Oviedo, me mudé a Londres, donde viví varios años y donde, entre otras cosas, cursé un Máster de Traducción Audiovisual en la University of Roehampton.
+Recuerdo a mi yo preadolescente traduciendo letras de Hilary Duff por diversión (y con el diccionario, sin internet). Y también __a mi yo de 18 teniendo que elegir entre estudiar algo relacionado con el cine o con el inglés__, y echarme a llorar por no saber. ¡Resulta que __podía combinar las dos cosas__! Y eso es lo que he hecho.
 
-Ahora he traducido más de 40 películas y series y, en 2018, gané el Premio ATRAE a Mejor Serie Subtitulada.
+Después de graduarme en Estudios Ingleses por la Universidad de Oviedo, me mudé a Londres, donde viví varios años y donde, entre otras cosas, cursé un __Máster de Traducción Audiovisual en la University of Roehampton__.
 
-Además de traductora freelance, he trabajado en plantilla como especialista de QA lingüístico para empresas como EA y Deluxe. También he colaborado en festivales de cine como técnico de subtitulado.
+Ahora he __traducido más de 40 películas y series__ y, en 2018, __gané el Premio ATRAE a Mejor Serie Subtitulada.__
+
+__Además de traductora freelance, he trabajado en plantilla como especialista de QA lingüístico__ para empresas como __EA y Deluxe__. También he colaborado en festivales de cine como técnico de subtitulado.

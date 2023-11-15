@@ -7,8 +7,19 @@ draft: false
 
 resumelink:
   name: Mi CV
-  url: "/rawfiles/CV-spanish.pdf"
+  url: "/rawfiles/CV-english.pdf"
   icon: fa-file
+
+links:
+- name: Películas y series traducidas por mí
+  url: https://basededatos.atrae.org/user/alba-vidal/
+  icon: fa-film
+- name: Entrevista con La Nueva Crónica
+  url: https://www.lanuevacronica.com/nevera/los-subtitulos-para-netflix-se-traducen-desde-leon_117807_102.html
+  icon: fa-newspaper
+- name: "Premio ATRAE 2018: palmarés"
+  url: https://premios.atrae.org/ganadores-ix-edicion/
+  icon: fa-link
 ---
 
 __¡Hola! Soy Alba Vidal, traductora audiovisual. Sí, rima. ¿Casualidad? Quién sabe.
@@ -20,4 +31,4 @@ Después de graduarme en Estudios Ingleses por la Universidad de Oviedo, me mud�
 
 Ahora he traducido más de 40 películas y series y, en 2018, gané el Premio ATRAE a Mejor Serie Subtitulada.
 
-Además de traductora freelance, he trabajado en plantilla como especialista de QA linguüístico para empresas como EA y Deluxe. También he colaborado en festivales de cine como técnico de subtitulado.
+Además de traductora freelance, he trabajado en plantilla como especialista de QA lingüístico para empresas como EA y Deluxe. También he colaborado en festivales de cine como técnico de subtitulado.

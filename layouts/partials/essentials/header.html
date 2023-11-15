@@ -4,7 +4,7 @@
     <!-- logo -->
     <div class="order-0">
       <!-- navbar brand/logo -->
-      <a class="navbar-brand block customFontBold" href="{{ site.BaseURL | relLangURL }}">
+      <a class="navbar-brand block customFontMedium" href="{{ site.BaseURL | relLangURL }}">
         {{ site.Params.logo_text }}
       </a>
     </div>
@@ -38,7 +38,7 @@
       {{ if .HasChildren }}
       <li class="nav-item nav-dropdown group relative">
             <span
-              class="nav-link {{ range .Children }}
+              class="customFontMedium nav-link {{ range .Children }}
                 {{ $childURL := .URL | absLangURL }}
                 {{ $active := eq $childURL $pageURL }}
                 {{ if $active }}active{{ end }}
@@ -56,7 +56,7 @@
           {{ $active := eq $childURL $pageURL }}
           <li class="nav-dropdown-item">
             <a
-              class="nav-dropdown-link {{ if $active }}
+              class="customFontMedium nav-dropdown-link {{ if $active }}
                       active
                     {{- end -}}"
               {{ if findRE `^http` .URL }}
@@ -79,7 +79,7 @@
       {{ else }}
       <li class="nav-item">
         <a
-          class="nav-link {{ if $active }}active{{- end -}}"
+          class="customFontMedium nav-link {{ if $active }}active{{- end -}}"
           {{ if findRE `^http` .URL }}
           target="_blank" rel="noopener"
           {{ end }}

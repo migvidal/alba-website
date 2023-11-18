@@ -14,9 +14,6 @@ links:
 - name: Things I have translated
   url: https://basededatos.atrae.org/user/alba-vidal/
   icon: fa-film
-- name: Entrevista con La Nueva Crónica
-  url: https://www.lanuevacronica.com/nevera/los-subtitulos-para-netflix-se-traducen-desde-leon_117807_102.html
-  icon: fa-newspaper
 - name: ATRAE Awards 2018
   url: https://premios.atrae.org/ganadores-ix-edicion/
   icon: fa-link

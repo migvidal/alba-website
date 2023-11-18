@@ -10,7 +10,12 @@
             <!-- CV link -->
               {{ with .Params.resumelink }}
               <div class="text-left h-10 pb-2">
-                <a class="link" href="{{ .url | absURL }}"><i class="w-6 fa {{ .icon }}"></i>{{ .name }}</a>
+                <div class="inline-flex items-center justify-center text-center bg-primary dark:bg-darkmode-primary dark:text-dark rounded text-white h-8 w-8 m-2">
+                  <i class="fa {{ .icon }}"></i>
+                </div>
+                <a class="link" href="{{ .url | absURL }}">
+                  {{ .name }}
+                </a>
               </div>
               {{ end }}
             <!-- /CV link -->
@@ -18,7 +23,12 @@
             <!-- Other links -->
               {{ range .Params.links }}
               <div class="text-left h-10 pb-2">
-                <a class="link" href="{{ .url }}"><i class="w-6 fa {{ .icon }}"></i>{{ .name }}</a>
+                <div class="inline-flex items-center justify-center text-center bg-primary dark:bg-darkmode-primary dark:text-dark rounded text-white h-8 w-8 m-2">
+                  <i class="fa {{ .icon }}"></i>
+                </div>
+                <a class="link" href="{{ .url }}">
+                  {{ .name }}
+                </a>
               </div>
               {{ end }}
             <!-- /Other links -->

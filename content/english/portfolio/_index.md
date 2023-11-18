@@ -12,6 +12,8 @@ companies:
 - name: Netflix
   image: "/images/companies_logos/Netflix_logo.svg"
   description:
+  rowspan: 2
+  colspan: 1
 
 - name: Electronic Arts
   image: "/images/companies_logos/EA_logo.svg"
@@ -28,4 +30,6 @@ companies:
 - name: SEMINCI
   image: "/images/companies_logos/SEMINCI_logo.png"
   description:
+  colspan: 2
+
 ---

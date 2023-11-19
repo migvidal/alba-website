@@ -8,6 +8,8 @@ intro: "
   I have also translated several websites and conducted proofreading and linguistic QC for various clients.
 "
 
+moviesdir: "/assets/images/series"
+
 companies:
 - name: Netflix
   image: "/images/companies_logos/Netflix_logo.svg"

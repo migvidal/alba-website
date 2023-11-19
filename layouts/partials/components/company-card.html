@@ -1,7 +1,9 @@
-<div
-  class="flex flex-col justify-start bg-theme-light dark:bg-darkmode-theme-light rounded-xl p-4 text-center
+<div class="
   {{ with .rowspan }}row-span-{{ . }}{{ end }}
-  {{ with .colspan }}col-span-{{ . }}{{ end }}"
+  {{ with .colspan }}col-span-{{ . }}{{ end }}">
+
+<div
+  class="flex flex-col justify-start bg-theme-light dark:bg-darkmode-theme-light rounded-xl p-4 text-center"
 >
   {{ $image:= .image }}
   {{ if $image }}
@@ -10,4 +12,5 @@
   <h4 class="mb-3">
     {{ .name }}
   </h4>
+</div>
 </div>

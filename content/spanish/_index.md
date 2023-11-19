@@ -56,5 +56,5 @@ services:
 # Contact
 contact:
   title: "Contacto"
-  subtitle: "Puedes encontrarme en estos lugares:"
+  subtitle: "Puedes hablar conmigo por:"
 ---

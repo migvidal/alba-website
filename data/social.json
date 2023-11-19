@@ -1,6 +1,12 @@
 {
   "main": [
     {
+      "name": "email",
+      "icon": "fa-solid fa-envelope",
+      "link": "mailto:albavidalf@gmail.com",
+      "username": "albavidalf@gmail.com"
+    },
+    {
       "name": "twitter",
       "icon": "fab fa-twitter",
       "link": "https://www.twitter.com/albavidalf",

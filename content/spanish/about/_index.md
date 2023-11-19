@@ -22,9 +22,6 @@ links:
   icon: fa-link
 ---
 
-__¡Hola! Soy Alba Vidal, traductora audiovisual. Sí, rima. ¿Casualidad? Quién sabe.
-Llevo más de 7 años dedicándome a la traducción y a la corrección de textos. De esos 7 años, 5 han estado dedicados casi exclusivamente a lo que más me gusta, chifla y apasiona: la traducción audiovisual.__
-
 __¡Hola! Soy Alba Vidal, traductora audiovisual.__ Sí, rima. ¿Casualidad? Quién sabe.
 
 __Llevo más de 7 años dedicándome a la traducción y a la corrección de textos. De esos 7 años, 5 han estado dedicados casi exclusivamente a lo que más me gusta, chifla y apasiona: la traducción audiovisual.__

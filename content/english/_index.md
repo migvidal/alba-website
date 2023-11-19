@@ -57,5 +57,5 @@ services:
 # Contact
 contact:
   title: "Contact"
-  subtitle: "You can find me in these places:"
+  subtitle: "You can talk to me in these places:"
 ---

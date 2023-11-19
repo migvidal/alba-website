@@ -4,11 +4,11 @@
     <div class="container text-center">
       <p>{{ .Params.intro | markdownify }}</p>
       <div class="grid grid-rows-2 grid-cols-2 md:grid-cols-4 gap-4 mt-10">
-        <p>{{ .Params.moviesdir }}</p>
-        {{ $path := "/assets/images/series" | relURL }}
-        {{ range $i := readDir $path }}
-          {{ $fullPath := printf "%s%s" $path $i.Name }}
-          <img src="/images/series/Castlevania_poster.jpg">
+        {{ $directory := "series" }}
+        {{ $path := printf "/assets/images/%s" $directory }}
+        {{ range readDir $path }}
+          {{ $fullPath := printf "/images/%s/%s" $directory .Name }}
+          {{ partial "image" (dict "Src" $fullPath) }}
         {{ end }}
       </div>
     </div>

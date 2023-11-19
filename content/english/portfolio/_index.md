@@ -8,7 +8,7 @@ intro: "
   I have also translated several websites and conducted proofreading and linguistic QC for various clients.
 "
 
-moviesdir: "series"
+showsdir: "series"
 
 companies:
 - name: Netflix

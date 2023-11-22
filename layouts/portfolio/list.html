@@ -6,11 +6,24 @@
       <div class="grid grid-rows-4 grid-cols-2 grid-rows-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mt-10">
         {{ with .Params.showsdir }}
           {{ $imagesDirectory := . }}
-        {{ $path := printf "/assets/images/%s" $imagesDirectory }}
-        {{ range readDir $path }}
-          {{ $fullPath := printf "/images/%s/%s" $imagesDirectory .Name }}
-          {{ partial "image" (dict "Src" $fullPath) }}
-        {{ end }}
+          {{ $path := printf "/assets/images/%s" $imagesDirectory }}
+          {{ range $i, $e := readDir $path }}
+            {{ $fullPath := printf "/images/%s/%s" $imagesDirectory .Name }}
+            {{ $dialogId := printf "dialog%d" $i }}
+            <!-- Dialog with bigger photo -->
+            <dialog class="w-160 rounded-xl" id="{{$dialogId}}">
+              <form method="dialog">
+                {{ partial "image" (dict "Src" $fullPath "Class" "w-full") }}
+                <button class="my-4 btn btn-primary rounded-full">OK</button>
+              </form>
+            </dialog>
+            <!-- Poster -->
+            <button onclick="{{ safeJS (printf "%s.showModal()" $dialogId) }}">
+              {{ partial "image" (dict "Src" $fullPath) }}
+            </button>
+            <!-- /Poster -->
+            <!-- /Dialog with bigger photo -->
+          {{ end }}
         {{ end }}
       </div>
     </div>

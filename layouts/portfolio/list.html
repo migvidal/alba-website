@@ -3,7 +3,7 @@
   <section class="section-sm">
     <div class="container text-center">
       <p>{{ .Params.intro | markdownify }}</p>
-      <div class="grid grid-rows-2 grid-cols-2 md:grid-cols-4 gap-4 mt-10">
+      <div class="grid grid-rows-4 grid-cols-2 grid-rows-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mt-10">
         {{ with .Params.showsdir }}
           {{ $imagesDirectory := . }}
         {{ $path := printf "/assets/images/%s" $imagesDirectory }}

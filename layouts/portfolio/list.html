@@ -12,9 +12,11 @@
             {{ $dialogId := printf "dialog%d" $i }}
             <!-- Dialog with bigger photo -->
             <dialog class="w-160 rounded-xl" id="{{$dialogId}}">
-              <form method="dialog">
+              <form class="static" method="dialog">
                 {{ partial "image" (dict "Src" $fullPath "Class" "w-full") }}
-                <button class="my-4 btn btn-primary rounded-full">OK</button>
+                <button class="w-16 h-16 absolute top-0 right-0 m-4 btn btn-primary rounded-full">
+                  <i class="fa-solid fa-xmark fa-2xl"></i>
+                </button>
               </form>
             </dialog>
             <!-- Poster -->

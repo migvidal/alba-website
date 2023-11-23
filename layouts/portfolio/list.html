@@ -11,7 +11,7 @@
             {{ $fullPath := printf "/images/%s/%s" $imagesDirectory .Name }}
             {{ $dialogId := printf "dialog%d" $i }}
             <!-- Dialog with bigger photo -->
-            <dialog class="max-w-xl bg-transparent rounded-xl overflow-hidden"
+            <dialog class="max-w-xl bg-transparent rounded-xl"
                     onclick="{{ safeJS (printf "%s.close()" $dialogId) }}"
                     id="{{$dialogId}}">
               <form class="static" method="dialog">

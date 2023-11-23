@@ -109,29 +109,40 @@
 <!-- Contact -->
 <section id="contact" class="section-sm">
   <div class="container">
-    {{ with .Params.contact }}
-    <h2 class="mb-4">
+    {{ $contact := .Params.contact }}
+    {{ with $contact }}
+      <h2 class="mb-4">
         {{ .title }}
       </h2>
       <p class="text-lg mb-4">
         {{ .subtitle }}
       </p>
+      <p>
+        {{ .text | markdownify }}
+      </p>
     {{ end }}
-    <ul class="flex flex-wrap">
+    <ul class="grid grid-flow-row auto-rows-max my-4 md:grid-cols-4">
       {{ range site.Data.social.main }}
-      <li class="px-8">
-        <a class="flex items-center text-xl hover:text-cyan-500"
-          target="_blank"
-          aria-label="{{ .name }}"
-          rel="nofollow noopener"
-          href="{{ .link | safeURL }}">
-          <div
-            class="m-2 bg-primary dark:bg-darkmode-primary dark:text-dark flex h-12 w-12 items-center justify-center rounded-full text-center leading-9 text-white">
-            <i class="{{ .icon }}"></i>
-          </div>
-        <p class="pl-2 underline underline-offset-8">{{ .name | strings.FirstUpper }} - {{ .username }}</p>
-        </a>
-      </li>
+        <li class="px-8 col-span-4 md:col-span-2">
+          <a class="flex items-center text-xl hover:text-cyan-500"
+            target="_blank"
+            aria-label="{{ .name }}"
+            rel="nofollow noopener"
+            href="{{ .link | safeURL }}">
+            <div
+              class="m-2 bg-primary dark:bg-darkmode-primary dark:text-dark flex h-12 w-12 items-center justify-center rounded-full text-center leading-9 text-white">
+              <i class="{{ .icon }}"></i>
+            </div>
+          <p class="pl-2 underline underline-offset-8">{{ .name | strings.FirstUpper }} - {{ .username }}</p>
+          </a>
+        </li>
+        <!-- Email link -->
+        {{ if  eq .name "email"}}
+          <p class="col-span-4 my-4">
+            {{ $contact.bottomtext | markdownify }}
+          </p>
+        {{ end }}
+        <!-- /Email link -->
       {{ end }}
     </ul>
   </div>

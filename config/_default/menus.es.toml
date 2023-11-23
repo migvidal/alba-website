@@ -17,7 +17,12 @@ url = "portfolio/"
 weight = 3
 
 [[main]]
+name = "Contacto"
+url = "#contact"
 weight = 4
+
+[[main]]
+weight = 5
 name = "Dev-Pages"
 hasChildren = true
 

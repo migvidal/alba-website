@@ -56,5 +56,7 @@ services:
 # Contact
 contact:
   title: "Contacto"
-  subtitle: "Puedes hablar conmigo por:"
+  subtitle: ¿Necesitas una traducción, corrección, subtitulado o servicio de accesibilidad audiovisual?
+  text: Cuéntame y nos ponemos a ello. ¿No sabes muy bien qué necesitas? ¡Escríbeme igual! Te asesoraré y ofreceré un presupuesto sin compromiso.
+  bottomtext: "También puedes encontrarme en:"
 ---

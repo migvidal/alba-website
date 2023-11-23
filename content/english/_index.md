@@ -56,6 +56,8 @@ services:
 
 # Contact
 contact:
-  title: "Contact"
-  subtitle: "You can talk to me in these places:"
+  title: "Contacto"
+  subtitle: Do you need translation, proofreading, subtitling or media accessibility services?
+  text: Tell me about your project and let’s get to work. You’re not quite sure what you need? Drop me a line anyway! I will help you figure out what the best option for you is and give you a no obligation quote.
+  bottomtext: "You can also reach out here:"
 ---

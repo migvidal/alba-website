@@ -30,3 +30,11 @@ After completing my BA in English Studies in Universidad de Oviedo (Spain), I mo
 Fast forward to 2023, and __I have translated over 40 films and TV shows into Spanish__. In 2018, __I won an ATRAE award for Best Subtitled TV Show__ for my translation of RuPaul’s Drag Race.
 
 Besides freelance translation, I have also worked as an in-house __Linguistic QA specialist for companies such as Electronic Arts and Deluxe Media__. I also collaborate with film festivals as a subtitle technician.
+
+## Why work with me?
+>But Alba, isn’t ChatGPT just as good as a human translator these days? Isn’t the proofreading function in Word enough? Why should I hire a professional?
+
+Translation: 
+>But Alba, doesn’t McDonald’s sell cheaper food? Why would I go to a Michelin star restaurant, then?
+
+They are both, in fact, acceptable options. But the choice depends on what you are hoping to achieve by translating your product and how far you’d like it to go. Are you trying to grow your brand by translating your website? Submit your short film to a festival? Do you need subtitling for the deaf that really makes media accessible and actually helps its users rather than frustrate them? Then, you want to work with a professional who understands not only the source and target cultures, but also what your goals are, and who helps you get there through translation.

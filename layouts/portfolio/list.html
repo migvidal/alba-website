@@ -23,7 +23,7 @@
             </dialog>
             <!-- Poster -->
             <button onclick="{{ safeJS (printf "%s.showModal()" $dialogId) }}">
-              {{ partial "image" (dict "Src" $fullPath) }}
+              {{ partial "image" (dict "Src" $fullPath "Class" "rounded-xl hover:opacity-50") }}
             </button>
             <!-- /Poster -->
             <!-- /Dialog with bigger photo -->

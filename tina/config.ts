@@ -28,56 +28,59 @@ export default defineConfig({
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
-      // English
+      // Index English
       {
         name: "index_en",
-        label: "Inglés",
+        label: "Index-English",
         path: "content/english",
+        match: {
+          include: '*',
+        },
         fields: [
           {
             name: "banner",
-            label: "Cabecera ('banner')",
+            label: "Cabecera",
             required: true,
             type: "object",
             fields: [
-                {
-                  label: 'Título',
-                  name: 'title',
-                  type: 'string',
-                },
-                {
-                  label: 'Subtítulo',
-                  name: 'subtitle',
-                  type: 'string',
-                },
-                {
-                  label: 'Contenido',
-                  name: 'content',
-                  type: 'string',
-                },
-                {
-                  label: 'Imagen',
-                  name: 'image',
-                  type: 'string',
-                },
-                {
-                  label: "Botón 'contacto'",
-                  name: 'button',
-                  type: "object",
-                  fields: [
-                    {
-                      label: 'Activado',
-                      name: 'enable',
-                      type: 'boolean',
-                    },
-                    {
-                      label: 'Texto del botón',
-                      name: 'label',
-                      type: 'string',
-                    },
+              {
+                label: 'Título',
+                name: 'title',
+                type: 'string',
+              },
+              {
+                label: 'Subtítulo',
+                name: 'subtitle',
+                type: 'string',
+              },
+              {
+                label: 'Contenido',
+                name: 'content',
+                type: 'string',
+              },
+              {
+                label: 'Imagen',
+                name: 'image',
+                type: 'string',
+              },
+              {
+                label: "Botón 'contacto'",
+                name: 'button',
+                type: "object",
+                fields: [
+                  {
+                    label: 'Activado',
+                    name: 'enable',
+                    type: 'boolean',
+                  },
+                  {
+                    label: 'Texto del botón',
+                    name: 'label',
+                    type: 'string',
+                  },
                   ]
-                },
-            ]
+              },
+              ]
           },
           {
             type: "rich-text",
@@ -87,15 +90,18 @@ export default defineConfig({
           },
           ],
       },
-      // Spanish
+      // Index Spanish
       {
         name: "index_es",
-        label: "Español",
+        label: "Index-Spanish",
         path: "content/spanish",
+        match: {
+          include: '*',
+        },
         fields: [
           {
             name: "banner",
-            label: "Cabecera ('banner')",
+            label: "Cabecera",
             required: true,
             type: "object",
             fields: [
@@ -146,6 +152,6 @@ export default defineConfig({
           },
           ],
       },
-    ],
+      ],
   },
 });

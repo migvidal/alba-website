@@ -48,6 +48,70 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "index",
+        label: "Index",
+        path: "content/english/",
+        fields: [
+          {
+            name: "banner",
+            label: "Banner",
+            required: true,
+            type: "object",
+            fields: [
+                {
+                  label: 'Title',
+                  name: 'title',
+                  type: 'string',
+                },
+                {
+                  label: 'Subtitle',
+                  name: 'subtitle',
+                  type: 'string',
+                },
+                {
+                  label: 'Content',
+                  name: 'content',
+                  type: 'string',
+                },
+                {
+                  label: 'Image',
+                  name: 'image',
+                  type: 'string',
+                },
+                {
+                  label: 'Button',
+                  name: 'button',
+                  type: "object",
+                  fields: [
+                    {
+                      label: 'Enabled',
+                      name: 'enable',
+                      type: 'boolean',
+                    },
+                    {
+                      label: 'Label',
+                      name: 'label',
+                      type: 'string',
+                    },
+                    {
+                      label: 'Link',
+                      name: 'link',
+                      type: 'string',
+                    },
+
+                  ]
+                },
+            ]
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+          ],
+      },
     ],
   },
 });

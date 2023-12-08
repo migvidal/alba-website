@@ -51,7 +51,7 @@ services:
 
     button:
       enable: false
-      label: "Get Started Now"
+      label: "Your text here"
       link: "#"
 
 # Contact

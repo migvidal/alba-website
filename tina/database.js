@@ -1,6 +1,7 @@
 import { GitHubProvider } from 'tinacms-gitprovider-github'
 
 export default isLocal ? createLocalDatabase() ? createDatabase({
+  databaseAdapter: new DatabaseAdapter(),
   gitProvider: new GitHubProvider({
     branch: process.env.GITHUB_BRANCH,
     owner: process.env.GITHUB_OWNER,

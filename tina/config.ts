@@ -28,78 +28,53 @@ export default defineConfig({
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
+      // English
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
-        fields: [
-          {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
-      },
-      {
-        name: "index",
-        label: "Index",
-        path: "content/english/",
+        name: "index_en",
+        label: "Inglés",
+        path: "content/english",
         fields: [
           {
             name: "banner",
-            label: "Banner",
+            label: "Cabecera ('banner')",
             required: true,
             type: "object",
             fields: [
                 {
-                  label: 'Title',
+                  label: 'Título',
                   name: 'title',
                   type: 'string',
                 },
                 {
-                  label: 'Subtitle',
+                  label: 'Subtítulo',
                   name: 'subtitle',
                   type: 'string',
                 },
                 {
-                  label: 'Content',
+                  label: 'Contenido',
                   name: 'content',
                   type: 'string',
                 },
                 {
-                  label: 'Image',
+                  label: 'Imagen',
                   name: 'image',
                   type: 'string',
                 },
                 {
-                  label: 'Button',
+                  label: "Botón 'contacto'",
                   name: 'button',
                   type: "object",
                   fields: [
                     {
-                      label: 'Enabled',
+                      label: 'Activado',
                       name: 'enable',
                       type: 'boolean',
                     },
                     {
-                      label: 'Label',
+                      label: 'Texto del botón',
                       name: 'label',
                       type: 'string',
                     },
-                    {
-                      label: 'Link',
-                      name: 'link',
-                      type: 'string',
-                    },
-
                   ]
                 },
             ]
@@ -107,7 +82,66 @@ export default defineConfig({
           {
             type: "rich-text",
             name: "body",
-            label: "Body",
+            label: "Cuerpo",
+            isBody: true,
+          },
+          ],
+      },
+      // Spanish
+      {
+        name: "index_es",
+        label: "Español",
+        path: "content/spanish",
+        fields: [
+          {
+            name: "banner",
+            label: "Cabecera ('banner')",
+            required: true,
+            type: "object",
+            fields: [
+              {
+                label: 'Título',
+                name: 'title',
+                type: 'string',
+              },
+              {
+                label: 'Subtítulo',
+                name: 'subtitle',
+                type: 'string',
+              },
+              {
+                label: 'Cuerpo',
+                name: 'content',
+                type: 'string',
+              },
+              {
+                label: 'Imagen',
+                name: 'image',
+                type: 'string',
+              },
+              {
+                label: "Botón 'contacto'",
+                name: 'button',
+                type: "object",
+                fields: [
+                  {
+                    label: 'Activado',
+                    name: 'enable',
+                    type: 'boolean',
+                  },
+                  {
+                    label: 'Texto del botón',
+                    name: 'label',
+                    type: 'string',
+                  },
+                  ]
+              },
+              ]
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Cuerpo",
             isBody: true,
           },
           ],

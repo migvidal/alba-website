@@ -3,7 +3,8 @@
 banner:
   title: "Soy Alba Vidal"
   content: "Traductora audiovisual."
-  image: "/images/working_with_fire.png"
+  image: "/images/working_without_fire.png"
+  second_image: "/images/working_with_fire.png"
   button:
     enable: true
     label: "Contacta conmigo"

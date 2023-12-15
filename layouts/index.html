@@ -77,7 +77,10 @@
                   onclick="dialog.showModal()">
                   {{ .dialog_button }}
                 </button>
-                <dialog class="p-8 w-96 rounded-xl" id="dialog">
+                <dialog
+                  class="p-8 w-96 rounded-xl bg-theme-light dark:bg-darkmode-theme-light dark:text-slate-200"
+                  id="dialog"
+                  onclick="dialog.close()">
                   <form method="dialog">
                     <p class="font-bold pb-2">{{ .dialog_title }}</p>
                     <p>{{ .dialog_content | markdownify }}</p>

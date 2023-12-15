@@ -19,7 +19,7 @@ services:
         image: "/images/drawing_icons/ic_process.svg"
         bulletpoints:
           - "Subtitle translation (EN>ES)."
-          - "Spanish subBtle creaBon from scratch, including transcripBon and time-spotting."
+          - "Spanish subtitle creation from scratch, including transcription and time-spotting."
       - title: "Dubbing:"
         image: "/images/drawing_icons/ic_translate.svg"
         bulletpoints:
@@ -28,7 +28,7 @@ services:
       - title: "Accesibility"
         image: "/images/drawing_icons/ic_web_document.svg"
         bulletpoints:
-          - "Subtitling for the deaf (SDH)/ Closed capBons: in English (from a script or transcript) and EN>ES translation."
+          - "Subtitling for the deaf (SDH)/ Closed captions: in English (from a script or transcript) and EN>ES translation."
           - "Audiodescription: creation of scripts in Spanish."
         dialog_button: "What is audiodescription?"
         dialog_title: "What is audiodescription??, you might ask"
@@ -37,7 +37,7 @@ services:
       - title: "Proofreading (Spanish)"
         image: "/images/drawing_icons/ic_collab_work.svg"
         bulletpoints:
-          - "In addiBon to translation, I offer full proofreading (spelling, grammar and style) of Spanish originals and translations. Don’t let careless punctuation or odd-sounding calques ruin a good text. As we say in Spain, four eyes see more than two. And yes, I am that annoying friend who walks around pointing at street signs because 'there’s a missing comma!'"
+          - "In addition to translation, I offer full proofreading (spelling, grammar and style) of Spanish originals and translations. Don’t let careless punctuation or odd-sounding calques ruin a good text. As we say in Spain, four eyes see more than two. And yes, I am that annoying friend who walks around pointing at street signs because 'there’s a missing comma!'"
 
       - title: "Linguistic Quality Assurance (LQA)"
         image: "/images/drawing_icons/ic_like.svg"

@@ -121,7 +121,54 @@
         {{ .text | markdownify }}
       </p>
     {{ end }}
+
+    <!-- Contact form -->
+    {{ with .Params.contact_form }}
+    <div class="md:col-10 lg:col-6 mx-auto my-8">
+      <form action="{{ site.Params.contact_form_action }}" method="POST" netlify>
+        <div class="mb-6">
+          <label for="name" class="form-label">
+            {{ .name.label }} <span class="text-red-500">*</span>
+          </label>
+          <input
+            id="name"
+            name="name"
+            class="form-input"
+            placeholder="{{ .name.placeholder }}"
+            type="text" />
+        </div>
+        <div class="mb-6">
+          <label for="email" class="form-label">
+            {{ .email.label }} <span class="text-red-500">*</span>
+          </label>
+          <input
+            id="email"
+            name="email"
+            class="form-input"
+            placeholder="{{ .email.placeholder }}"
+            type="email" />
+        </div>
+        <div class="mb-6">
+          <label for="message" class="form-label">
+            {{ .body.label }} <span class="text-red-500">*</span>
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            class="form-input"
+            placeholder="{{ .body.placeholder }}"
+            rows="8"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">{{ .button}}</button>
+      </form>
+    </div>
+    {{ end }}
+    <!-- /Contact form -->
+
     <ul class="grid grid-flow-row auto-rows-max my-4 md:grid-cols-4">
+      <p class="col-span-4 my-4">
+        {{ $contact.bottomtext | markdownify }}
+      </p>
       {{ range site.Data.social.main }}
         <li class="px-8 col-span-4 md:col-span-2">
           <a class="flex items-center text-xl hover:text-cyan-500"
@@ -136,13 +183,6 @@
           <p class="pl-2 underline underline-offset-8">{{ .name | strings.FirstUpper }} - {{ .username }}</p>
           </a>
         </li>
-        <!-- Email link -->
-        {{ if  eq .name "email"}}
-          <p class="col-span-4 my-4">
-            {{ $contact.bottomtext | markdownify }}
-          </p>
-        {{ end }}
-        <!-- /Email link -->
       {{ end }}
     </ul>
   </div>

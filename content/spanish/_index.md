@@ -59,4 +59,16 @@ contact:
   subtitle: ¿Necesitas una traducción, corrección, subtitulado o servicio de accesibilidad audiovisual?
   text: Cuéntame y nos ponemos a ello. ¿No sabes muy bien qué necesitas? ¡Escríbeme igual! Te asesoraré y ofreceré un presupuesto sin compromiso.
   bottomtext: "También puedes encontrarme en:"
+
+contact_form:
+  name:
+    label: "Tu nombre"
+    placeholder: "John Appleseed"
+  email:
+    label: "Tu email"
+    placeholder: "johnappleseed@xyz.com"
+  body:
+    label: "Mensaje"
+    placeholder: "Me gustaría traducir..."
+  button: "Enviar"
 ---

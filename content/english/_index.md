@@ -49,15 +49,22 @@ services:
         - "Ser el último ser humano que comprueba un producto localizado antes de que se publique es... muy necesario. ¡La cantidad de errores de última hora que se evitan así!"
         - "El LQA es más técnico y específico que una corrección de texto, e implica tareas como consultar guías de cliente y de estilo, usar software específico e implementar cambios de última hora. Muchas veces el proceso trasciende los idiomas y se hace control de calidad de lenguas que ni hablamos, por lo que es esencial tener conocimientos de lingüística y saber dónde y cómo mirar."
 
-    button:
-      enable: false
-      label: "Your text here"
-      link: "#"
-
 # Contact
 contact:
-  title: "Contacto"
+  title: "Contact"
   subtitle: Do you need translation, proofreading, subtitling or media accessibility services?
   text: Tell me about your project and let’s get to work. You’re not quite sure what you need? Drop me a line anyway! I will help you figure out what the best option for you is and give you a no obligation quote.
   bottomtext: "You can also reach out here:"
+  
+contact_form:
+  name:
+    label: "Your name"
+    placeholder: "John Appleseed"
+  email:
+    label: "Your email"
+    placeholder: "johnappleseed@xyz.com"
+  body:
+    label: "Message"
+    placeholder: "I would like to translate..."
+  button: "Send"
 ---

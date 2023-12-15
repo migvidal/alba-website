@@ -20,34 +20,3 @@ weight = 3
 name = "Contacto"
 url = "#contact"
 weight = 4
-
-[[main]]
-weight = 5
-name = "Dev-Pages"
-hasChildren = true
-
-[[main]]
-parent = "Dev-Pages"
-name = "Blog"
-url = "blog/"
-
-[[main]]
-parent = "Dev-Pages"
-name = "Contact"
-url = "contact/"
-
-[[main]]
-parent = "Dev-Pages"
-name = "Authors"
-url = "authors/"
-
-[[main]]
-parent = "Dev-Pages"
-name = "Categories"
-url = "categories/"
-
-# footer menu
-[[footer]]
-# name = "Acerca de"
-# url = "about/"
-# weight = 1

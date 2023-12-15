@@ -17,7 +17,7 @@
         </p>
         {{ with .button }}
         {{ if .enable }}
-        <a class="btn btn-primary rounded-full" href="#contact">
+        <a class="btn btn-primary rounded-full hover:scale-105" href="#contact">
           {{ .label }}
           <i class="fa fa-arrow-right pl-2"></i>
         </a>
@@ -27,9 +27,9 @@
       <div class="col-12 md:col-4">
         <div class="md:relative">
         {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class"
-        "mx-auto !max-w-[320px] hidden md:block absolute md:opacity-100 md:hover:opacity-0 transition-opacity duration-800" ) }}
+        "mx-auto !max-w-[320px] hidden md:block absolute md:opacity-100 md:hover:opacity-0 transition-opacity duration-1000" ) }}
         {{ partial "image" (dict "Src" .second_image "Alt" "Banner image" "Loading" "eager" "Class"
-        "mx-auto !max-w-[320px] block md:absolute md:opacity-0 md:hover:opacity-100 transition-opacity duration-800") }}
+        "mx-auto !max-w-[320px] block md:absolute md:opacity-0 md:hover:opacity-100 transition-opacity duration-1000") }}
         </div>
       </div>
       <div class="md:col-2"></div>

@@ -29,7 +29,7 @@ After completing my BA in English Studies in Universidad de Oviedo (Spain), I mo
 
 Fast forward to 2023, and __I have translated over 40 films and TV shows into Spanish__. In 2018, __I won an ATRAE award for Best Subtitled TV Show__ for my translation of RuPaul’s Drag Race.
 
-Besides freelance translation, I have also worked as an in-house __Linguistic QA specialist for companies such as Electronic Arts and Deluxe Media__. I also collaborate with film festivals as a subtitle technician.
+Besides freelance translation, I have also worked as an in-house __Linguistic QA specialist for companies such as Electronic Arts and Deluxe Media__. I also collaborate with film festivals as a subtitle technician. 
 
 ## Why work with me?
 >But Alba, isn’t ChatGPT just as good as a human translator these days? Isn’t the proofreading function in Word enough? Why should I hire a professional?

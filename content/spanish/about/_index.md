@@ -2,25 +2,26 @@
 title: "¡Hola! Soy Alba Vidal"
 meta_title: "About"
 description: "this is meta description"
-image: "/images/profile_picture.jpeg"
-draft: false
+image: /images/profile_picture.jpeg # No editar!
+draft: false # No editar!
 
 resumelink:
-  name: Mi CV
-  url: "/rawfiles/CV-english.pdf"
-  icon: fa-file
+  name: "Mi CV"
+  url: /rawfiles/CV-english.pdf # No editar!
+  icon: fa-file # No editar!
 
 links:
-- name: Películas y series traducidas por mí
-  url: https://basededatos.atrae.org/user/alba-vidal/
-  icon: fa-film
-- name: Entrevista con La Nueva Crónica
-  url: https://www.lanuevacronica.com/nevera/los-subtitulos-para-netflix-se-traducen-desde-leon_117807_102.html
-  icon: fa-newspaper
+- name: "Películas y series traducidas por mí"
+  url: "https://basededatos.atrae.org/user/alba-vidal/"
+  icon: fa-film # No editar!
+- name: "Entrevista con La Nueva Crónica"
+  url: "https://www.lanuevacronica.com/nevera/los-subtitulos-para-netflix-se-traducen-desde-leon_117807_102.html"
+  icon: fa-newspaper # No editar!
 - name: "Premio ATRAE 2018: palmarés"
-  url: https://premios.atrae.org/ganadores-ix-edicion/
-  icon: fa-link
+  url: "https://premios.atrae.org/ganadores-ix-edicion/"
+  icon: fa-link # No editar!
 ---
+{{/*Cuerpo*/}}
 
 __¡Hola! Soy Alba Vidal, traductora audiovisual.__ Sí, rima. ¿Casualidad? Quién sabe.
 

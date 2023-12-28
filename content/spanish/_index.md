@@ -3,8 +3,8 @@
 banner:
   title: "Soy Alba Vidal"
   content: "Traductora audiovisual."
-  image: "/images/working_without_fire.png"
-  second_image: "/images/working_with_fire.png"
+  image: /images/working_without_fire.png # No editar!
+  second_image: /images/working_with_fire.png # No editar!
   button:
     enable: true
     label: "Contacta conmigo"
@@ -15,17 +15,17 @@ services:
     content: "Como __traductora__, trabajo exclusivamente del inglés al español europeo (variante __EN>ES__). Esto me ha permitido centrarme y especializarme en el campo audiovisual, aunque también realizo traducción publicitaria y generalista."
     bulletsection:
       - title: "Subtitulado:"
-        image: "/images/drawing_icons/ic_process.svg"
+        image: /images/drawing_icons/ic_process.svg # No editar!
         bulletpoints:
           - "Traducción de subtítulos (inglés a español)"
           - "Creación de subtítulos en español desde cero: transcripción y pautado."
       - title: "Doblaje:"
-        image: "/images/drawing_icons/ic_translate.svg"
+        image: /images/drawing_icons/ic_translate.svg # No editar!
         bulletpoints:
           - "Traducción EN>ES de guiones de doblaje para su posterior ajuste"
 
       - title: "Accesibilidad"
-        image: "/images/drawing_icons/ic_web_document.svg"
+        image: /images/drawing_icons/ic_web_document.svg # No editar!
         bulletpoints:
           - "Subtitulado para sordos (SPS): siguiendo la norma UNE 153010."
           - "Audiodescripción: creación de guiones en español."
@@ -34,17 +34,17 @@ services:
         dialog_content: "Pues una narración de los elementos visuales de un vídeo, para mejorar el acceso al cine y la TV de las personas con discapacidad (vamos, una cosa muy bonita y necesaria). Más info [aquí](https://www.once.es/servicios-sociales/cultura-y-ocio/audiodescripcion-para-quienes-gustan-del-cine-y-del-teatro)."
 
       - title: "Transcreación, alias traducción de márketing"
-        image: "/images/drawing_icons/ic_document.svg"
+        image: /images/drawing_icons/ic_document.svg # No editar!
         bulletpoints:
           - "Para una buena traducción publicitaria es esencial adaptar el tono y las referencias culturales al nuevo mercado. Solo así el público recibirá la marca tal y como se pretende. Te ayudo a adaptar tu contenido de márketing, ya sean anuncios, redes sociales, copy..."
 
       - title: "Corrección de textos (español)"
-        image: "/images/drawing_icons/ic_collab_work.svg"
+        image: /images/drawing_icons/ic_collab_work.svg # No editar!
         bulletpoints:
           - "Además de traducción, ofrezco servicios de revisión ortotipográfica y de estilo, tanto de textos originales en español como de traducciones. ¡No dejes que una puntuación descuidada te estropee un buen texto ni que se te cuele algún anglicismo raro en tu traducción! Cuatro ojos ven más que dos, etcétera. Y sí, soy la típica pesada que va por la calle señalando carteles y diciendo: 'ahí sobra una coma'."
 
       - title: "LQA: Control de calidad lingüístico"
-        image: "/images/drawing_icons/ic_like.svg"
+        image: /images/drawing_icons/ic_like.svg # No editar!
         bulletpoints:
           - "Ser el último ser humano que comprueba un producto localizado antes de que se publique es... muy necesario. ¡La cantidad de errores de última hora que se evitan así!"
           - "El LQA es más técnico y específico que una corrección de texto, e implica tareas como consultar guías de cliente y de estilo, usar software específico e implementar cambios de última hora. Muchas veces el proceso trasciende los idiomas y se hace control de calidad de lenguas que ni hablamos, por lo que es esencial tener conocimientos de lingüística y saber dónde y cómo mirar."
@@ -68,3 +68,4 @@ contact_form:
     placeholder: "Me gustaría traducir..."
   button: "Enviar"
 ---
+{{/*Cuerpo*/}}

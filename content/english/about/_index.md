@@ -2,22 +2,24 @@
 title: "About me"
 meta_title: "About"
 description: "this is meta description"
-image: "/images/profile_picture.jpeg"
+image: "/images/profile_picture.jpeg" # No editar!
 draft: false
 
 resumelink:
   name: My CV
-  url: "/rawfiles/CV-english.pdf"
-  icon: fa-file
+  url: "/rawfiles/CV-english.pdf" # No editar!
+  icon: fa-file # No editar!
 
 links:
 - name: Things I have translated
   url: https://basededatos.atrae.org/user/alba-vidal/
-  icon: fa-film
+  icon: fa-film # No editar!
 - name: ATRAE Awards 2018
   url: https://premios.atrae.org/ganadores-ix-edicion/
-  icon: fa-link
+  icon: fa-link # No editar!
 ---
+
+{{/*Cuerpo*/}}
 
 __Hi there! My name is Alba Vidal, audiovisual translator.__ “Audiovisual” and “Vidal” rhyme in Spanish, but sadly not in English. I will eventually come up with something nice to make up for it, I promise!
 

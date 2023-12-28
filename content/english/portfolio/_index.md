@@ -8,6 +8,8 @@ intro: "
   I have also translated several websites and conducted proofreading and linguistic QC for various clients. 
 "
 
-showsdir: "shows"
+showsdir: "shows" # No editar!
 
 ---
+
+{{/*Cuerpo*/}}

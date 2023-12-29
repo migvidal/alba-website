@@ -7,7 +7,7 @@ draft: false
 
 resumelink:
   name: My CV
-  url: "/rawfiles/CV-english.pdf" # No editar!
+  url: "/curriculums/CV-english.pdf" # No editar!
   icon: fa-file # No editar!
 
 links:

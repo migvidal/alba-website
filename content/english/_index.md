@@ -3,7 +3,7 @@
 banner:
   title: "I'm Alba Vidal"
   subtitle: "Audiovisual translator." 
-  content: "I have worked for Lorem Inc, Ipsum Group and Contoso SA."
+  content: ""
   image: /images/working_without_fire.png # No editar!
   second_image: /images/working_with_fire.png # No editar!
   button:

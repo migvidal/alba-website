@@ -2,7 +2,8 @@
 # Banner
 banner:
   title: "Soy Alba Vidal"
-  content: "Traductora audiovisual."
+  subtitle: "Traductora audiovisual."
+  content: ""
   image: /images/working_without_fire.png # No editar!
   second_image: /images/working_with_fire.png # No editar!
   button:

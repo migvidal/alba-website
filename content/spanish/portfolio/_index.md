@@ -10,4 +10,3 @@ intro: "
 
 showsdir: shows # No editar!
 ---
-{{/*Cuerpo*/}}

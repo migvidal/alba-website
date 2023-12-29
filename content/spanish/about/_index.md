@@ -21,7 +21,7 @@ links:
   url: "https://premios.atrae.org/ganadores-ix-edicion/"
   icon: fa-link # No editar!
 ---
-{{/*Cuerpo*/}}
+
 
 __¡Hola! Soy Alba Vidal, traductora audiovisual.__ Sí, rima. ¿Casualidad? Quién sabe.
 

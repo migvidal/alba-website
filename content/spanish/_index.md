@@ -69,4 +69,4 @@ contact_form:
     placeholder: "Me gustaría traducir..."
   button: "Enviar"
 ---
-{{/*Cuerpo*/}}
+

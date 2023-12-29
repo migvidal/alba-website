@@ -19,7 +19,7 @@ links:
   icon: fa-link # No editar!
 ---
 
-{{/*Cuerpo*/}}
+
 
 __Hi there! My name is Alba Vidal, audiovisual translator.__ “Audiovisual” and “Vidal” rhyme in Spanish, but sadly not in English. I will eventually come up with something nice to make up for it, I promise!
 

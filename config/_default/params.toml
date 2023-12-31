@@ -27,7 +27,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Based on Hugoplate by [Zeon Studio](https://zeon.studio)"
+copyright = "Made by __[Migvidal](https://migvidal.com)__ · Based on Hugoplate by [Zeon Studio](https://zeon.studio)"
 # additional attributions
 attributions = "Images by Björn Andersson from the [Noun Project](https://thenounproject.com/browse/icons/term/translate/) (CC BY 3.0). Banner image by [catalyststuff on Freepik](https://www.freepik.com/free-vector/cute-woman-working-laptop-with-fire-cartoon-vector-icon-illustration-people-technology-isolated_32903761.htm#fromView=search&term=woman+computer&page=2&position=13&track=ais&regularType=vector)"
 

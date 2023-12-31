@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row">
       <div class="md:col-2"></div>
-      <div class="md:col-4 mb-8 mt-10">
+      <div class="md:col-4 mb-8 mt-12">
         <h1 class="inflatableFont">
           {{ .title | markdownify }}
         </h1>
@@ -24,7 +24,7 @@
         {{ end }}
         {{ end }}
       </div>
-      <div class="col-12 md:col-4">
+      <div class="col-12 md:col-4 -mt-16">
         <div class="md:relative">
         {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class"
         "mx-auto !max-w-[320px] hidden md:block absolute md:opacity-100 md:hover:opacity-0 transition-opacity duration-1000" ) }}

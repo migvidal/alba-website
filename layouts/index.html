@@ -82,7 +82,7 @@
                   id="dialog"
                   onclick="dialog.close()">
                   <form method="dialog">
-                    <p class="font-bold pb-2">{{ .dialog_title }}</p>
+                    <p class="font-bold pb-2">{{ .dialog_title | markdownify }}</p>
                     <p>{{ .dialog_content | markdownify }}</p>
                     <button class="my-4 btn btn-primary rounded-full">OK</button>
                   </form>

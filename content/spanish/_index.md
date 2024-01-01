@@ -15,15 +15,15 @@ services:
   - title: "Servicios que ofrezco"
     content: "Como __traductora__, trabajo exclusivamente del inglés al español europeo (variante __EN>ES__). Esto me ha permitido centrarme y especializarme en el campo audiovisual, aunque también realizo traducción publicitaria y generalista."
     bulletsection:
-      - title: "Subtitulado:"
+      - title: "Subtitulado"
         image: /images/drawing_icons/ic_process.svg # No editar!
         bulletpoints:
           - "Traducción de subtítulos (inglés a español)"
           - "Creación de subtítulos en español desde cero: transcripción y pautado."
-      - title: "Doblaje:"
+      - title: "Doblaje"
         image: /images/drawing_icons/ic_translate.svg # No editar!
         bulletpoints:
-          - "Traducción EN>ES de guiones de doblaje para su posterior ajuste"
+          - "Traducción EN>ES de guiones de doblaje para su posterior ajuste."
 
       - title: "Accesibilidad"
         image: /images/drawing_icons/ic_web_document.svg # No editar!
@@ -42,7 +42,7 @@ services:
       - title: "Corrección de textos (español)"
         image: /images/drawing_icons/ic_collab_work.svg # No editar!
         bulletpoints:
-          - "Además de traducción, ofrezco servicios de revisión ortotipográfica y de estilo, tanto de textos originales en español como de traducciones. ¡No dejes que una puntuación descuidada te estropee un buen texto ni que se te cuele algún anglicismo raro en tu traducción! Cuatro ojos ven más que dos, etcétera. Y sí, soy la típica pesada que va por la calle señalando carteles y diciendo: 'ahí sobra una coma'."
+          - "Además de traducción, ofrezco servicios de revisión ortotipográfica y de estilo, tanto de textos originales en español como de traducciones. ¡No dejes que una puntuación descuidada te estropee un buen texto ni que se te cuele algún anglicismo raro en tu traducción! Cuatro ojos ven más que dos, etcétera. Y sí, soy la típica pesada que va por la calle señalando carteles y diciendo: _ahí sobra una coma_."
 
       - title: "LQA: Control de calidad lingüístico"
         image: /images/drawing_icons/ic_like.svg # No editar!

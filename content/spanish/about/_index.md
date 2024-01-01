@@ -14,7 +14,7 @@ links:
 - name: "Películas y series traducidas por mí"
   url: "https://basededatos.atrae.org/user/alba-vidal/"
   icon: fa-film # No editar!
-- name: "Entrevista con La Nueva Cronica"
+- name: "Entrevista con La Nueva Crónica"
   url: "https://www.lanuevacronica.com/nevera/los-subtitulos-para-netflix-se-traducen-desde-leon_117807_102.html"
   icon: fa-newspaper # No editar!
 - name: "Premio ATRAE 2018: palmarés"

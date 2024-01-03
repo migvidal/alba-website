@@ -18,7 +18,7 @@ services:
       - title: "Subtitling"
         image: /images/drawing_icons/ic_process.svg # No editar!
         bulletpoints:
-          - "Subtitle translation (EN>ES)."
+          - "Subtitle translation (EN>ES)"
           - "Spanish subtitle creation from scratch, including transcription and time-spotting."
       - title: "Dubbing"
         image: /images/drawing_icons/ic_translate.svg # No editar!
